@@ -1,0 +1,14 @@
+cargo-features = ["edition2021"]
+
+[package]
+name = "texteditor"
+version = "0.1.0"
+authors = ["atayozcan"]
+edition = "2021"
+
+[dependencies]
+unicode-width = "*"
+structopt = "*"
+termion = "*"
+rand = "*"
+tui = "*"
